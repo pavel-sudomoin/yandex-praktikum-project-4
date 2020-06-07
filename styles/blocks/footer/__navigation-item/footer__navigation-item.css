@@ -1,0 +1,17 @@
+.footer__navigation-item {
+    margin-bottom: 15px;
+}
+
+.footer__navigation-item:last-child {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .footer__navigation-item {
+        margin: 0;
+        margin-right: 18px;
+    }
+    .footer__navigation-item:last-child {
+        margin: 0;
+    }
+}

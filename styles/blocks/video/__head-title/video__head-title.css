@@ -1,0 +1,5 @@
+@media (max-width: 1023px) {
+    .video__head-title {
+        max-width: 450px;    
+    }
+}

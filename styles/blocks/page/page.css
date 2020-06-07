@@ -1,0 +1,41 @@
+@import url('../../vendor/font-inter/font-inter.css');
+
+@import url('./__column-narrow/page__column-narrow.css');
+@import url('./__column-wide/page__column-wide.css');
+
+@import url('./__header/page__header.css');
+@import url('./__lead/page__lead.css');
+@import url('./__intro/page__intro.css');
+@import url('./__photo-grid/page__photo-grid.css');
+@import url('./__places/page__places.css');
+@import url('./__video/page__video.css');
+@import url('./__comments/page__comments.css');
+@import url('./__cover/page__cover.css');
+@import url('./__footer/page__footer.css');
+
+.page  {
+    min-width: 320px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 48px;
+    background-color: #2A2C2F;
+    color: white;
+    overflow: hidden;
+    
+    font-family: 'Inter', Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 1023px) {
+    .page {
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page {
+        padding-top: 16px;
+    }
+}

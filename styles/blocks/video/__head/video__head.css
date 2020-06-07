@@ -1,0 +1,15 @@
+.video__head {
+    margin-bottom: 72px;
+}
+
+@media (max-width: 1023px) {
+    .video__head {
+        margin-bottom: 56px;
+    }
+}
+
+@media (max-width: 767px) {
+    .video__head {
+        margin-bottom: 24px;
+    }
+}

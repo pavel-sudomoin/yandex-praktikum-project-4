@@ -1,0 +1,13 @@
+.video__image {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    min-height: 288px;
+    object-fit: cover;
+}
+
+@media (max-width: 1023px) {
+    .video__image {
+        min-height: 192px;
+    }
+}

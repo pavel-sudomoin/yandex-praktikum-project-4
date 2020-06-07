@@ -1,0 +1,9 @@
+.header__lang_ru {
+    margin-right: 18px;
+}
+
+@media (max-width: 767px) {
+    .header__lang_ru {
+        margin-right: 16px;
+    }
+}

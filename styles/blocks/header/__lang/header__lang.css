@@ -1,0 +1,12 @@
+@import url('./_active/header__lang_active.css');
+@import url('./_ru/header__lang_ru.css');
+
+.header {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    .header {
+        font-size: 1.125rem;
+    }
+}

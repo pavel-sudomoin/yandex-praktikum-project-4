@@ -1,0 +1,28 @@
+.page__photo-grid {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 92px;
+}
+
+@media (max-width: 1279px) {
+    .page__photo-grid {
+        padding-right: 48px;
+        padding-left: 48px;
+        margin-bottom: 102px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .page__photo-grid {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .page__photo-grid {
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-bottom: 64px;
+    }
+}

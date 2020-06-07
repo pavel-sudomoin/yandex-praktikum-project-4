@@ -1,0 +1,16 @@
+.places__item {
+    margin-bottom: 72px;
+}
+
+.places__item:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .places__item {
+        margin-bottom: 48px;
+    }
+    .places__item:last-child {
+        margin-bottom: 0;
+    }
+}

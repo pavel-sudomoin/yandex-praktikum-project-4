@@ -1,0 +1,14 @@
+.intro__content-row {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    max-width: 683px;
+    margin: 0;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 767px) {
+    .intro__content-row {
+        margin-bottom: 32px;
+    }
+}

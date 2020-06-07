@@ -1,0 +1,7 @@
+@import url('./__head/comments__head.css');
+@import url('./__container/comments__container.css');
+@import url('./__item/comments__item.css');
+
+.comments {
+    font-family: 'Inter', Arial, sans-serif;
+}

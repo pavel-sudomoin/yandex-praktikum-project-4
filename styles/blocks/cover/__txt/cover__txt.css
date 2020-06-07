@@ -1,0 +1,21 @@
+.cover__txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0 16px 24px 16px;
+}
+
+@media (min-width: 768px) {
+    .cover__txt {
+        padding: 0;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__txt {
+        padding-bottom: 48px;
+    }
+}

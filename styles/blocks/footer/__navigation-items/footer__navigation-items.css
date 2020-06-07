@@ -1,0 +1,15 @@
+.footer__navigation-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+@media (min-width: 768px) {
+    .footer__navigation-items {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

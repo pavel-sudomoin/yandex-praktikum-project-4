@@ -1,0 +1,11 @@
+@import url('./__caption/lead__caption.css');
+@import url('./__figure/lead__figure.css');
+@import url('./__image/lead__image.css');
+@import url('./__image-group/lead__image-group.css');
+@import url('./__route-map/lead__route-map.css');
+@import url('./__subtitle/lead__subtitle.css');
+@import url('./__title/lead__title.css');
+
+.lead {
+    font-family: 'Inter', Arial, sans-serif;
+}

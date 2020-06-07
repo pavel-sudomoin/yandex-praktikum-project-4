@@ -1,0 +1,30 @@
+.cover__image {
+    display: block;
+    width: 100%;
+    min-height: 216px;
+    object-fit: cover;
+}
+
+@media (min-width: 375px) {
+    .cover__image {
+        min-height: 272px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cover__image {
+        min-height: 500px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cover__image {
+        max-height: 562px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__image {
+        max-height: 594px;
+    }
+}

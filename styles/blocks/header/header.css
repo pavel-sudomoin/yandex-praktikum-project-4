@@ -1,0 +1,9 @@
+@import url('./__lang-wrap/header__lang-wrap.css');
+@import url('./__lang/header__lang.css');
+@import url('./__logo-image/header__logo-image.css');
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', Arial, sans-serif;
+}

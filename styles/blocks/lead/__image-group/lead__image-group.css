@@ -1,0 +1,18 @@
+.lead__image-group {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 1023px) {
+    .lead__image-group {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .lead__image-group {
+        margin-bottom: 8px;
+    }
+}

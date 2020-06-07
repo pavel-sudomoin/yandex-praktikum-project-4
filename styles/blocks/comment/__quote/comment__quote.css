@@ -1,0 +1,21 @@
+.comment__quote {
+    margin: 0;
+    font-size: 1em;
+    line-height: 1.4375;
+    order: 3;
+}
+
+@media (min-width: 1024px) {
+    .comment__quote {
+        margin-bottom: 16px;
+        font-size: 0.875em;
+        line-height: 1.7143;
+        order: 2;
+    }
+}
+
+@media (min-width: 1280px) {
+    .comment__quote {
+        margin-bottom: 24px;
+    }
+}

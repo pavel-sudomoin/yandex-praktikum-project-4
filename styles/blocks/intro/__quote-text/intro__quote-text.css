@@ -1,0 +1,12 @@
+.intro__quote-text {
+    margin: 0;
+    font-size: 0.875em;
+    line-height: 1.7143;
+}
+
+@media (max-width: 767px) {
+    .intro__quote-text {
+        font-size: 1em;
+        line-height: 1.6875;
+    }
+}

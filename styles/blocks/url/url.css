@@ -1,0 +1,10 @@
+@import url('./__heading/url__heading.css');
+@import url('./__link/url__link.css');
+
+.url {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Inter', Arial, sans-serif;
+}

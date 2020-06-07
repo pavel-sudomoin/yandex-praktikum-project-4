@@ -1,0 +1,25 @@
+.video__item-txt {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+@media (max-width: 1279px) {
+    .video__item-txt {
+        bottom: 35px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .video__item-txt {
+        left: 24px;
+        bottom: 24px;
+    }
+}
+
+@media (max-width: 374px) {
+    .video__item-txt {
+        left: 16px;
+        bottom: 16px;
+    }
+}

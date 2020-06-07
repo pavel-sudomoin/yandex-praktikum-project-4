@@ -1,0 +1,17 @@
+.page__cover {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+
+@media (min-width: 768px) {
+    .page__cover {
+        margin-bottom: 102px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page__cover {
+        margin-bottom: 160px;
+    }
+}

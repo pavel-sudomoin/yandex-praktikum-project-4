@@ -1,0 +1,22 @@
+.video__item {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.video__item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+.video__item:hover::before {
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in;
+}

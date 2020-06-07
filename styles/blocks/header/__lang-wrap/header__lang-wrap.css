@@ -1,0 +1,5 @@
+.header__lang-wrap {
+    display: flex;
+    justify-content: end;
+    align-self: center;
+}

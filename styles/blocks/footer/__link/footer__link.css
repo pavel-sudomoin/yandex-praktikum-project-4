@@ -1,0 +1,19 @@
+.footer__link {
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1.7083;
+}
+
+@media (min-width: 768px) {
+    .footer__link {
+        font-size: 1rem;
+        line-height: 1.6875;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__link {
+        font-size: 1.5rem;
+        line-height: 1.7083;
+    }
+}

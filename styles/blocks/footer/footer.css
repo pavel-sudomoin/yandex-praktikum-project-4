@@ -1,0 +1,19 @@
+@import url('./__navigation/footer__navigation.css');
+@import url('./__navigation-items/footer__navigation-items.css');
+@import url('./__navigation-item/footer__navigation-item.css');
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

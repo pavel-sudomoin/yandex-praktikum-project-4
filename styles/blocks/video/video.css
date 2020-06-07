@@ -1,0 +1,15 @@
+@import url('./__head/video__head.css');
+@import url('./__head-title/video__head-title.css');
+@import url('./__container/video__container.css');
+@import url('./__item/video__item.css');
+@import url('./__item-txt/video__item-txt.css');
+@import url('./__image/video__image.css');
+@import url('./__icon/video__icon.css');
+@import url('./__duration/video__duration.css');
+@import url('./__title/video__title.css');
+@import url('./__subtitle/video__subtitle.css');
+
+.video {
+    font-size: 1rem;
+    font-family: 'Inter', Arial, sans-serif;
+}
